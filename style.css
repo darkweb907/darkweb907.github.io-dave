@@ -344,8 +344,17 @@ footer{
     .first{
         margin-top: 2em;
     }
-    .second{
-        width: 100%;
+    .second {
+        height: 600px;
+        border-bottom-left-radius: 295px;
+        display: inline-block;
+        background-color: rgb(138, 43, 226);
+        width: 52%;
+        position: relative;
+        bottom: 224px;
+        /* z-index: 0; */
+        /* left: -565px; */
+        left: -87px;
     }
     .container{
         width: 157%;
