@@ -478,6 +478,9 @@ section:nth-child(1){
 }
 }
 @media screen and (max-width: 480px){
+    .know {
+        width: 107%;
+    }
     .second{
         display: none;
     }
@@ -497,7 +500,7 @@ section:nth-child(1){
         font-weight: bolder;
     }
     .row{
-        padding: 40px 56px;
+        padding: 40px 104px;
     }
     .know>h1 {
         font-size: 42px;
@@ -506,27 +509,26 @@ section:nth-child(1){
     .dan>p {
         width: 103%;
         font-size: 22px;
-        margin-left: 12px;
+        margin-left: -12px;
     }
-.dan>h1 {
-    width: 106%;
-    font-size: 32px;
-}
+    .dan>h1 {
+        width: 183%;
+        font-size: 36px;
+    }
     .by>p {
-        width: 103%;
+        width: 170%;
         font-size: 22px;
         margin-left: 12px;
     }
-.by>h1 {
-    width: 106%;
-    font-size: 32px;
-}
-
+    .by>h1 {
+        width: 194%;
+        font-size: 37px;
+    }    
 .menu-boot {
     display: block;
     opacity: 5;
     position: relative;
-    right: 222px;
+    right: 23px;
 }
 section:nth-child(1){
     width: 20em;
@@ -548,12 +550,31 @@ section:nth-child(1){
     /* display: flex; */
     /* justify-content: center; */
     margin: 35px -31px;
-    width: 77%;
+    width: 108%;
     font-size: 41px;
     text-align: center;
 }
 .first {
     margin-top: -5em;
+}
+body {
+    position: relative;
+    background-color: blueviolet;
+    right: 0px;
+    margin-right: 135px;
+}
+.first>p {
+    font-size: 24px;
+    margin-top: 6px;
+    width: 200%;
+}
+.fav {
+    font-size: 37px;
+    width: 12em;
+}
+.my {
+    width: 91%;
+    margin-top: 60px;
 }
 }    
    
