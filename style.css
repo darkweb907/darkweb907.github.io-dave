@@ -54,7 +54,6 @@ a{
     width: 45%;
     position: relative;
     bottom: 224px;
-    /* z-index: 0; */
     left: 52px;
 }
 section{
@@ -470,6 +469,20 @@ section:nth-child(1){
 }
 }
 @media screen and (max-width: 480px){
+    .second{
+        display: none;
+    }
+    .red{
+        display: none;
+    }
+  
+    .container {
+        background-color: white;
+        position: relative;
+        top: 63px;
+        left: 0px;
+        height: auto;
+    }
     h3 {
         white-space: nowrap;
         font-weight: bolder;
@@ -500,11 +513,11 @@ section:nth-child(1){
     font-size: 32px;
 }
 
-    .menu-boot{
-        display: block;
-        opacity: 5;
-        position: relative;
-        right: 280px;  
+.menu-boot {
+    display: block;
+    opacity: 5;
+    position: relative;
+    right: 222px;
 }
 section:nth-child(1){
     width: 20em;
